@@ -1,4 +1,4 @@
-select distinct customer_id
+select customer_id
     ,count(customer_id) as count_no_trans
 from Visits v
 left join Transactions t
