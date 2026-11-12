@@ -6,4 +6,4 @@ with non_dup as
         HAVING COUNT(num) = 1 
     )
 SELECT MAX(num) as num
-FROM non_dup
+FROM non_dup;
